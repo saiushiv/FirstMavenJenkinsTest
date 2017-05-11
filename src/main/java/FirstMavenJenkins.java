@@ -9,7 +9,7 @@ public class FirstMavenJenkins {
 
     public static String printy()
     {
-        String txt = "Hello there ...yayyyy!";
+        String txt = "Hello there ...yay!";
         return txt;
     }
 }
