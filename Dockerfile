@@ -6,12 +6,11 @@ WORKDIR /var/MJT
 
 
 # Copy over the app
-COPY src /var/MJT
+COPY target /var/MJT
 
 # Networking
 EXPOSE 5001
 
 # Launch!
-CMD javac /var/MJT/main/java/FirstMavenJenkins.java
-CMD java -cp /var/MJT/main/java/ FirstMavenJenkins
+CMD java -cp /var/MJT/classes FirstMavenJenkins
 
