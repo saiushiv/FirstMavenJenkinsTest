@@ -9,7 +9,7 @@ public class FirstMavenJenkinsTest {
      @Test
      public void testprinty()
      {
-          Assert.assertEquals("Hello there ...yay...yessss!yahoooooo and now works on ubuntu....hfskdjfkjsdfksdhfj",FirstMavenJenkins.printy());
+          Assert.assertEquals("Hello from ...java + jenkins + Docker",FirstMavenJenkins.printy());
      }
 
 }

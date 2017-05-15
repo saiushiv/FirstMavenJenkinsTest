@@ -9,8 +9,8 @@ public class FirstMavenJenkins {
 
     public static String printy()
     {
-        String txt = "Hello there ...yay...yessss!";
-        txt = txt + "yahoooooo and now works on ubuntu....hfskdjfkjsdfksdhfj";
+        String txt = "Hello from ...";
+        txt = txt + "java + jenkins + Docker";
         return txt;
     }
 }
