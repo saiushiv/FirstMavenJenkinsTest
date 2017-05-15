@@ -10,7 +10,7 @@ public class FirstMavenJenkins {
     public static String printy()
     {
         String txt = "Hello there ...yay...yessss!";
-        txt = txt + "yahoooooo";
+        txt = txt + "yahoooooo and now works on ubuntu";
         return txt;
     }
 }
