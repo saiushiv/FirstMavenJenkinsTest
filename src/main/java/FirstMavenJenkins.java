@@ -10,7 +10,7 @@ public class FirstMavenJenkins {
     public static String printy()
     {
         String txt = "Hello from ...";
-        txt = txt + "java + jenkins + Docker";
+        txt = txt + "java + jenkins + Docker + Maven";
         return txt;
     }
 }
